@@ -1,6 +1,6 @@
 steps:
 - name: 'gcr.io/cloud-builders/docker'
-  args: [ 'build', '-t', 'us-central1-docker.pkg.dev/fractal3/trainer-fractal/fractalTrainer:tag1', '.' ]
+  args: [ 'build', '-t', 'us-central1-docker.pkg.dev/fractal3/trainer-fractal/fractaltrainer:tag1', '.' ]
 images:
-- 'us-central1-docker.pkg.dev/fractal3/trainer-fractal/fractalTrainer:tag1'
+- 'us-central1-docker.pkg.dev/fractal3/trainer-fractal/fractaltrainer:tag1'
 # [END cloudbuild_quickstart_build]
